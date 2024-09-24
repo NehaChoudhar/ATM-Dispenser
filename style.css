@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+    background-color: rgb(60, 60, 118);
+    margin-bottom: 20px;
+    color: white;
+    height: 70px;
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wel {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+.amount-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.get-money {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(60, 60, 118);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.get-money:hover {
+    background-color: #3f3c73;
+}
+.nav {
+    background-color: #fff;
+    padding: 30px;
+    width: 40%;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    font-size: 16px;
+}
+
+.happy,h4 {
+    margin-top: 20px;
+}
+
+p {
+    color: #666;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .wel, .nav {
+        width: 90%;
+    }
+
+    .amount-input, .get-money {
+        font-size: 14px;
+    }
+
+    .nav li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .wel, .nav {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .amount-input, .get-money {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .nav li {
+        font-size: 12px;
+    }
+}
